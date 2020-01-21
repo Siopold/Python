@@ -8,13 +8,11 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
 ## Lab Objectives
 
 By the end of this project you will be able to:
--	Describe the differences between a high-level programming language and machine language
--	Use Geany to write and execute Python programs
+-	Use PythonAnywhere to write and execute Python programs
 -	Use Python methods and functions to work with strings and numbers
 -	Assign variables, concatenate strings, create lists, and define dictionaries
--	Use Python to parse XML using the ElementTree Module
 
-Python is an object-oriented programming language. It’s comparable to a number of other programming languages, such as Perl, Ruby, or Java. Python is a high- level programming language.
+Python is an object-oriented programming language. It’s comparable to a number of other programming languages, such as Perl, Ruby, or Java. Python is a high-level programming language.
 
 ## Acknowledgements
 
@@ -22,15 +20,13 @@ This lab is based on the "Project 5: Python" project materials developed by [Lin
 
 ## Object-Oriented Programming
 
-Object-oriented programming languages allow programmers to write sections of re-usable code, including object definitions and function definitions. Objects describe some object or concept from the real-world in code form. Functions then define the way that objects interact or how they function.
+Object-oriented programming languages allow programmers to write sections of re-usable code, including object definitions and function definitions. Objects describe some object or concept from the real world in code form. Functions then define the way that objects interact or how they function.
 
 ## High-Level Programming Languages
 
 <p align="center"><a href="https://github.com/kwaldenphd/Python/blob/master/images/Image_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/Python/blob/master/images/Image_1.png?raw=true" /></a></p>
 
 High-level programming languages refer to programming languages that resemble human languages. High-level languages are abstractions of low-level languages like binary (a machine language). Assembly languages are an intermediary. A complier translates the high-level language into an assembly language, and an assembler translates the assembly language into the machine language.
-
-Remember, we used the machine language (aka binary code) in a previous lab.
 
 We are going to look a just a few basics that are common to all programming languages. While syntax will differ slightly from language to language, these basic functions can be performed in all languages.
 
@@ -53,9 +49,9 @@ We are going to look a just a few basics that are common to all programming lang
 
 # Task 1: Hello World
 
-1. Your Pi comes installed with a Python programming environment, but we’ll stick with Geany for this lab. We'll write our first Python program using a variation on the now familiar “Hello World!”
+1. We will use PythonAnywhere (which we'll call "PA") for this LAb. We'll write our first Python program using a variation on the now familiar “Hello World!”
 
-2. Open a new file in Geany and save it as Hello_World.py. The .py extension on the file name tells Geany that we are writing Python (rather than .html or .xml).
+2. Open a new file in PA and save it as Hello_World.py. The .py extension on the file name tells PA that we are writing Python (rather than .html or .xml).
 ```Python
 print("Hello World!")
 ```
